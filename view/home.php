@@ -1,1 +1,1 @@
-<h6>Welcome to Wolvie Land</h6>
+<h4>This is the HOME page.</h4>

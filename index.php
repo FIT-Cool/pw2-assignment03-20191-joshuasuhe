@@ -8,24 +8,20 @@ include_once 'db_function/patient_func.php';
 <html>
 <head>
     <title>Pemrograman Web 2</title>
-    <meta name="author" content="Kelvin (1772039)">
+    <meta name="author" content="Joshua (1772013)">
     <meta name="description" content="PHP Navigation and PHP Data Object (PDO)">
     <link rel="stylesheet" type="text/css" href="css/tableStyle.css">
     <script src="js/my_js.js"></script>
 </head>
 
-<body>
+<body marginwidth="10%">
 <div class="page">
-    <header>
-        <h2 align="center">Pemrograman Web Praktikum 3</h2>
-    </header>
-
     <nav>
-        <ul>
-            <li><a href="?menu=hm">Home</a></li>
-            <li><a href="?menu=pt">Patient</a></li>
-            <li><a href="?menu=ins">Insurance</a></li>
-        </ul>
+            <h2>
+            <a href="?menu=hm">Home</a>
+            <a href="?menu=pt">Patient</a>
+            <a href="?menu=ins">Insurance</a>
+            </h2>
     </nav>
 
     <main>
@@ -52,10 +48,6 @@ include_once 'db_function/patient_func.php';
         }
         ?>
     </main>
-
-    <footer>
-        Pemrograman Web 2 &copy;2019
-    </footer>
 </div>
 </body>
 </html>

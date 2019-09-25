@@ -27,7 +27,7 @@ if (isset($deleteCommand) && $deleteCommand == 1) {
         <fieldset>
             <legend> New Insurance </legend>
             <label>Insurance Name : </label>
-            <input type="text" name="txtName" id="insuranceId" placeholder="Name (ex. SunLife Platinum)" autofocus required class="form-input">
+            <input type="text" name="txtName" id="insuranceId" autofocus required class="form-input">
             <input type="submit" name="btnSubmit" value="Add Insurance" class="button button-primary">
         </fieldset>
     </form>
