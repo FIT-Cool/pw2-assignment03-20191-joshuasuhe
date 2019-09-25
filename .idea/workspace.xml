@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d02717eb-be51-4dbe-b9e4-ff91ffa3d0a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/insurance.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/insurance.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/insurance_update.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/insurance_update.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/patient.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/patient.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/patient_update.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/patient_update.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +38,11 @@
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
     </expand>
     <select />
@@ -123,6 +128,7 @@
       <workItem from="1569130536007" duration="10112000" />
       <workItem from="1569161534055" duration="7438000" />
       <workItem from="1569402615902" duration="548000" />
+      <workItem from="1569416118674" duration="433000" />
     </task>
     <servers />
   </component>

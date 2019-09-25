@@ -1,4 +1,4 @@
-<?php   //For Insert
+<?php
 $input = filter_input(INPUT_POST, "btnSubmit");
 if (isset($input)){
     $med_record_number = filter_input(INPUT_POST, 'txtMRN');
@@ -13,7 +13,6 @@ if (isset($input)){
     addPatient($med_record_number, $citizen_id_number, $name, $address, $birth_place,$birth_date ,$phone_number, $photo, $insurance);
 }
 
-//For Delete
 $deleteCommand = filter_input(INPUT_GET, 'delPat');
 if (isset($deleteCommand) && $deleteCommand == 1) {
     $citizen_id_number = filter_input(INPUT_GET, 'citizen_id_number');

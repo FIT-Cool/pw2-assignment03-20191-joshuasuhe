@@ -1,11 +1,10 @@
-<?php //For Insert
+<?php
 $input = filter_input(INPUT_POST, "btnSubmit");
 if (isset($input)){
     $name = filter_input(INPUT_POST, 'txtName');
     addInsurance($name);
 }
 
-//For Delete
 $deleteCommand = filter_input(INPUT_GET, 'delIns');
 if (isset($deleteCommand) && $deleteCommand == 1) {
     $id = filter_input(INPUT_GET, 'id');

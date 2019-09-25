@@ -1,11 +1,8 @@
 <?php
-//For data fetch
 $citizen_id_number = filter_input(INPUT_GET, 'citizen_id_number');
 if (isset($citizen_id_number)) {
     $patient = getPatient($citizen_id_number);
 }
-
-//For Update
 $input = filter_input(INPUT_POST, "btnUpdate");
 if (isset($input)) {
     $medrecordnumber = filter_input(INPUT_POST, 'txtMRN');
@@ -27,21 +24,21 @@ if (isset($input)) {
         <legend> Update Patient</legend>
         <label> Patient Name </label>
         <label>Med Record Number : </label>
-        <input type="text" name="txtMRN" id="MRN" placeholder="Med Rec No. (ex. D-00000001)" autofocus required class="form-input">
+        <input type="text" name="txtMRN" id="MRN" autofocus required class="form-input">
         <label>Id Number : </label>
-        <input type="text" name="txtCIN" id="CIN" placeholder="13 Digit Number (ex. 1234567890123)" autofocus required class="form-input">
+        <input type="text" name="txtCIN" id="CIN" autofocus required class="form-input">
         <label>Name : </label>
-        <input type="text" name="txtName" id="Name" placeholder="Name (ex. Gordon Ramsey)" autofocus required class="form-input">
+        <input type="text" name="txtName" id="Name" autofocus required class="form-input">
         <label>Address : </label>
-        <input type="text" name="txtAddress" id="Address" placeholder="Address (ex. Dago Resort No.3)" autofocus required class="form-input">
+        <input type="text" name="txtAddress" id="Address" autofocus required class="form-input">
         <label>Birth Place : </label>
-        <input type="text" name="txtBirthPlace" id="BirthPlace" placeholder="Birth Place (ex. Tasikmalaya)" autofocus required class="form-input">
+        <input type="text" name="txtBirthPlace" id="BirthPlace" autofocus required class="form-input">
         <label>Birth Date : </label>
-        <input type="date" name="txtBirthDate" id="BirthDate" placeholder="Birth Date (ex. 2018-03-04)" autofocus required class="form-input">
+        <input type="date" name="txtBirthDate" id="BirthDate" autofocus required class="form-input">
         <label>Phone Number : </label>
-        <input type="text" name="txtPhoneNumber" id="PhoneNumber" placeholder="Phone Number (ex. 081437258115)" autofocus required class="form-input">
+        <input type="text" name="txtPhoneNumber" id="PhoneNumber" autofocus required class="form-input">
         <label>Photo : </label>
-        <input type="text" name="txtPhoto" id="Photo" placeholder="Photo (ex. Mr. Knee)" autofocus required class="form-input">
+        <input type="text" name="txtPhoto" id="Photo" autofocus required class="form-input">
         <select name="txtInsurance">
             <?php
             $data = getAllInsurance();
